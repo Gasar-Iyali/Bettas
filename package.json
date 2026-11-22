@@ -1,9 +1,10 @@
 {
-  "name": "lesson02",
+  "name": "lesson04",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
   },
   "keywords": [],
   "author": "",
@@ -81,7 +82,7 @@
     "update-browserslist-db": "^1.4.0",
     "util-deprecate": "^1.0.2"
 
-    
+
   },
   "description": ""
 }
